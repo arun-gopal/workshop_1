@@ -884,6 +884,7 @@ calc + 39 50
 calc x 65 58
 calc + 77 32
 calc - 19 57
+calc % 2 5
 calc - 45 35
 calc - 84 45
 calc + 63 54

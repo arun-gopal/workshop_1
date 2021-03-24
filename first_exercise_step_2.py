@@ -10,6 +10,9 @@ def multiply(x, y):
 def divide(x, y):
     return x / y
 
+def mod(x, y):
+    return x % y
+
 def power(x, y):
     return x ** y
 
@@ -31,6 +34,11 @@ def calculate(operation, first_operand, second_operand):
 
     elif operation == '/':
         result = divide(first_operand, second_operand)
+        print(f"{first_operand} {operation} {second_operand} = {result}")
+        return result
+    
+    elif operation == '%':
+        result = mod(first_operand, second_operand)
         print(f"{first_operand} {operation} {second_operand} = {result}")
         return result
 
