@@ -879,6 +879,7 @@ calc / 74 55
 calc - 89 30
 calc x 63 91
 calc + 52 20
+calc ^ 5 20
 calc + 39 50
 calc x 65 58
 calc + 77 32
